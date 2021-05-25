@@ -1,0 +1,9 @@
+<h1><%- title %></h1>
+
+<ul class="list-group list-group-numbered">
+    <% things.forEach(thing =>  { %>
+        <li class="list-group-item w-25">
+            <%= thing %>
+        </li>
+    <% }); %>
+</ul>
